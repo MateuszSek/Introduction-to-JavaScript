@@ -3,27 +3,28 @@
 <head>
     <meta charset="utf-8"/>
     <title>Project3_JS</title>
+
 </head>
 <body>
-    <select name="cssProperty" id='background'>
+    <select name="cssProperty" id="background" onchange="set()">
         <option value="Green">Green</option>
         <option value="Blue">Blue</option>
         <option value="Red">Red</option>
     </select>
 
-    <select name="cssProperty" id='width'>
+    <select name="cssProperty" id="width" onchange="set()">
         <option value="100px">100px</option>
         <option value="200px">200px</option>
         <option value="300px">300px</option>
     </select>
 
-    <select name="cssProperty" id='height'>
+    <select name="cssProperty" id="height" onchange="set()">
         <option value="100px">100px</option>
         <option value="200px">200px</option>
         <option value="300px">300px</option>
     </select>
 
-    <button id='but1' style="width:120px; height:20px; background-color: #babfc6;">
+    <button id="but1" style="width:120px; height:20px; background-color: #babfc6;">
         Generate
     </button>
 
